@@ -11,7 +11,7 @@ git config --global core.autocrlf input
 #cd $HOME
 cd /root/svt
 git init
-if [-ne README.md]
-  then echo '# GIT Initialize ' > README.md
+if [-ne README.md];
+  then echo '# GIT Initialize ' > README.md;
 fi
 
